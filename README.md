@@ -104,12 +104,6 @@ That's it. The widget fetches evidence data from the WeightCited API and renders
 <script src="https://cdn.jsdelivr.net/npm/weightcited-embed@1/dist/embed.min.js"></script>
 ```
 
-### R2 CDN (weightcited.com hosted)
-
-```html
-<script src="https://cdn.weightcited.com/embed.min.js"></script>
-```
-
 ### npm (for bundlers)
 
 ```bash
