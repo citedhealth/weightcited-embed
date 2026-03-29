@@ -1,21 +1,51 @@
 # WeightCited Embed Widget
 
-> Embeddable WeightCited widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Evidence-based health research. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/weightcited-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/weightcited-embed@1/dist/embed.min.js"></script>
+<div data-weightcited="evidence" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- evidence: `data-weightcited="evidence"`
+- ingredient: `data-weightcited="ingredient"`
+- condition: `data-weightcited="condition"`
+- paper: `data-weightcited="paper"`
+- figure: `data-weightcited="figure"`
+- search: `data-weightcited="search"`
+- safety: `data-weightcited="safety"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-weightcited="evidence" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/weightcited-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://weightcited.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://weightcited.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://weightcited.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://weightcited.com
 - Widget docs: https://widget.weightcited.com
-- npm: https://www.npmjs.com/package/weightcited-embed
-- GitHub: https://github.com/citedhealth/weightcited-embed
-- API: https://weightcited.com/developers/
+- API documentation: https://weightcited.com/developers/
+- npm package: https://www.npmjs.com/package/weightcited-embed
+- GitHub: https://github.com/fyipedia/weightcited-embed
 
-## CITED Health Widget Family
+## CITED Health Widget Network
 
 - [CitedHealth Widget](https://widget.citedhealth.com)
 - [HairCited Widget](https://widget.haircited.com)
