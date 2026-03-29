@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# WeightCited Embed Widget
+# Main site: https://weightcited.com
+# Widget docs: https://widget.weightcited.com
+# npm: https://www.npmjs.com/package/weightcited-embed
